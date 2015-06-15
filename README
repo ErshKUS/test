@@ -1,3 +1,34 @@
+Заголовок 1
+===
+Текст 1
+
+Заголовок 2
+---
+Текст 2
+
+### GetJSON Example
+```VB.net
+Function GetDirections(Origin As String, Destination As String) As String
+    ' Create a WebClient for executing requests
+    ' and set a base url that all requests will be appended to
+    Dim MapsClient As New WebClient
+    MapsClient.BaseUrl = "https://maps.googleapis.com/maps/api/"
+    
+    ' Use GetJSON helper to execute simple request and work with response
+    Dim Resource As String
+    Dim Response As WebResponse
+    
+    Resource = "directions/json?" & _
+        "origin=" & Origin & _
+        "&destination=" & Destination & _
+        "&sensor=false"
+    Set Response = MapsClient.GetJSON(Resource)
+    
+    ' => GET https://maps.../api/directions/json?origin=...&destination=...&sensor=false
+    
+    ProcessDirections Response
+End Function
+
 Master readme test
 :)
 
