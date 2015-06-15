@@ -1,5 +1,6 @@
 ### Table of contents
 documents using <kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd>.
+> **Note:** The <i class="icon-refresh"></i> button is disabled when you have no document to synchronize.
 	
 VBA-Web
 =
