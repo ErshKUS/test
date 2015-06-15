@@ -11,6 +11,9 @@ Getting started
 - Download the [latest release (v4.0.12)](https://github.com/VBA-tools/VBA-Web/releases)
 - To install/upgrade in an existing file, use `VBA-Web - Installer.xlsm`
 - To start from scratch in Excel, `VBA-Web - Blank.xlsm` has everything setup and ready to go
+* Download the [latest release (v4.0.12)](https://github.com/VBA-tools/VBA-Web/releases)
+* To install/upgrade in an existing file, use `VBA-Web - Installer.xlsm`
+* To start from scratch in Excel, `VBA-Web - Blank.xlsm` has everything setup and ready to go
 
 For more details see the [Wiki](https://github.com/VBA-tools/VBA-Web/wiki)
 
