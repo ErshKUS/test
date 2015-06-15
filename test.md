@@ -6,11 +6,11 @@ VBA-Web
 [![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-VBA-Web (formerly Excel-REST) makes working with complex webservices and APIs easy with VBA on Windows and Mac. It includes support for authentication, automatically converting and parsing JSON, working with cookies and headers, and much more. [1]
+VBA-Web (formerly Excel-REST) makes working with complex webservices and APIs easy with VBA on Windows and Mac. It includes support for authentication, automatically converting and parsing JSON, [zolla.50webs.com/support][working] with cookies and headers, and much more.
 
 <img src="http://saahov.ru/assets/2011/06/github-fork-link.png" alt="Fork" />
 
-[1]:http://daringfireball.net/projects/markdown/
+[working]:http://zolla.50webs.com
 
 Getting started
 -
