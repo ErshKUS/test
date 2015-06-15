@@ -1,5 +1,7 @@
-# CRLF -> LF by default, but not for modules or classes (especially classes)
+# Auto detect text files and perform LF normalization
 * text=auto
+
+# CRLF -> LF by default, but not for modules or classes (especially classes)
 *.bas text eol=crlf
 *.cls text eol=crlf
 
@@ -14,3 +16,5 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+*.xml  diff=astextplain
+*.XML  diff=astextplain
