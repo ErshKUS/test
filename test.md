@@ -18,7 +18,7 @@ Getting started
 For more details see the [Wiki](https://github.com/VBA-tools/VBA-Web/wiki)
 
 ### GetJSON Example Пример
-```VBA
+```vbb
 Function GetDirections(Origin As String, Destination As String) As String
     ' Create a WebClient for executing requests
     ' and set a base url that all requests will be appended to
