@@ -1,3 +1,25 @@
+Hudson Github Plugin
+====================
+Read more: [http://wiki.hudson-ci.org/display/HUDSON/Github+Plugin](http://wiki.hudson-ci.org/display/HUDSON/Github+Plugin)
+
+Issues
+------
+Please use the github issue tracker:
+[http://github.com/juretta/hudson-github-plugin/issues](http://github.com/juretta/hudson-github-plugin/issues)
+
+Development
+===========
+Start the local Hudson instance:
+    mvn hpi:run
+
+Hudson Plugin Maven goals
+-------------------------
+	hpi:create  Creates a skeleton of a new plugin.
+	hpi:hpi Builds the .hpi file
+	hpi:hpl Generates the .hpl file
+	hpi:run Runs Hudson with the current plugin project
+	hpi:upload Posts the hpi file to java.net. Used during the release.
+	
 VBA-Web
 =
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
