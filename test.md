@@ -1,7 +1,5 @@
 ### Table of contents
-You can insert a table of contents using the marker `[TOC]`:
-
-[TOC]
+documents using <kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd>.
 	
 VBA-Web
 =
