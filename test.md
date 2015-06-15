@@ -1,6 +1,7 @@
 ### Table of contents
 documents using <kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd>.
-	> **Note:** The <i class="icon-refresh"></i> button is disabled when you have no document to synchronize.
+
+> **Note:** The <i class="icon-refresh"></i> button is disabled when you have no document to synchronize.
 
 Term 1
 Term 2
