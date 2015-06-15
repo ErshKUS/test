@@ -35,3 +35,16 @@ Function GetDirections(Origin As String, Destination As String) As String
     ProcessDirections Response
 End Function
 ```
+
+## Синтаксис тегов
+
+### Для элементов и полей
+Элемент				| В Evolution (Старый)	| В Revolution (Новый)		| Пример (для Revolution)
+--------------------|-----------------------|---------------------------|-------------------------------
+Шаблоны				| Нет					| Нет						|
+Поля ресурсов		| `[*field*]`			| `[[*field]]`				| `[[*pagetitle]]`
+Дополнительные поля	| `[*templatevar*]`		| `[[*templatevar]]`		| `[[*tags]]`
+Чанки				| `{{chunk }}`			| `[[$chunk]]`				| `[[$header]]`
+Сниппеты			| `[[snippet]]`			| `[[snippet]]`				| `[[getResources]]`
+Плагины				| Нет					| Нет						|
+Модули	
