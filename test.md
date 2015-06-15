@@ -4,7 +4,7 @@ Read more: [http://wiki.hudson-ci.org/display/HUDSON/Github+Plugin](http://wiki.
 
 Issues
 ------
-Please use the github issue tracker:
+Please use the github issue tracker: <i class="icon-cog"></i>
 [http://github.com/juretta/hudson-github-plugin/issues](http://github.com/juretta/hudson-github-plugin/issues)
 
 Development
