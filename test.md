@@ -10,10 +10,11 @@ Please use the github issue tracker:
 Development
 ===========
 Start the local Hudson instance:
-    mvn hpi:run
+mvn hpi:run
 
 Hudson Plugin Maven goals
 -------------------------
+	vba
 	hpi:create  Creates a skeleton of a new plugin.
 	hpi:hpi Builds the .hpi file
 	hpi:hpl Generates the .hpl file
