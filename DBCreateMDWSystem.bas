@@ -7,7 +7,7 @@ Option Base 0
 Private ArrByte(126975) As Byte, iND As Long
 
 Public Sub ByteArrayToSystemMdw(ByVal FullPath As String) ' rev.200
-Attribute ByteArrayToSystemMdw.VB_Description = "Ìàêðîñ çàïèñàí 12/02/2014"
+Attribute ByteArrayToSystemMdw.VB_Description = "Макрос записан 12/02/2014"
   iND = LBound(ArrByte)
   Debug.Print "Loading  0%": Part00: Part01: Part02: Part03: Part04: Part05
   Debug.Print "Loading 14%": Part06: Part07: Part08: Part09: Part0A: Part0B
@@ -17,17 +17,13 @@ Attribute ByteArrayToSystemMdw.VB_Description = "Ìàêðîñ çàïèñàí 12/
   Debug.Print "Loading 68%": Part1E: Part1F: Part20: Part21: Part22: Part23
   Debug.Print "Loading 82%": Part24: Part25: Part26: Part27: Part28: Part29
   Debug.Print "Loading 95%": Part2A: Part2B: Debug.Print "Loaded 100%"
-<<<<<<< HEAD
-  If Err.Number = 6 Then Err.Clear ' Î÷èùàåì îøèáêó ïåðåïîëíåíèÿ
-=======
-  If Err.Number = 6 Then Err.Clear ' ÐžÑ‡Ð¸Ñ‰Ð°ÐµÐ¼ Ð¾ÑˆÐ¸Ð±ÐºÑƒ Ð¿ÐµÑ€ÐµÐ¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ (Ñ‚ÐµÑÑ‚)
->>>>>>> origin/master
+  If Err.Number = 6 Then Err.Clear ' Очищаем ошибку переполнения
   Open FullPath For Binary Access Write As #1: Put #1, , ArrByte: Close #1
 End Sub
 
 Private Function SetAsByte(ByRef ArrVar As Variant) As Long
 Dim Counter As Integer
-  On Error Resume Next ' ÂÀÆÍÎ! Èñêëþ÷àåì Value = Missing, îñòàâëÿÿ ÍÓËÜ
+  On Error Resume Next ' ВАЖНО! Исключаем Value = Missing, оставляя НУЛЬ
     For Counter = LBound(ArrVar) To UBound(ArrVar)
       ArrByte(Counter + iND) = CByte(ArrVar(Counter))
     Next Counter: SetAsByte = Counter + iND
@@ -45,7 +41,7 @@ Dim ArrVar As Variant
     74, 26, 243, 152, 189, 111, 132, 102, 95, 149, 248, 208, 137, 36, 133, _
     103, 198, 31, 39, 68, 210, 238, 207, 101, 237, 255, 7, 199, 70, 161, 120, _
     22, 12, 237, 233, 45, 98, 212, 84, 6, , , 52, 46, 48)
-  iND = SetAsByte(ArrVar) + 3425 ' Ïåðåìåùàåì êóðñîð
+  iND = SetAsByte(ArrVar) + 3425 ' Перемещаем курсор
   ArrVar = Array(1, 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , _
     1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, _
     , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , 1, , _
