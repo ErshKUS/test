@@ -1,9 +1,9 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=auto encoding=cp1251
 
 # CRLF -> LF by default, but not for modules or classes (especially classes)
-*.bas text encoding=cp1251 eol=crlf
-*.cls text encoding=cp1251 eol=crlf
+*.bas text eol=crlf
+*.cls text eol=crlf
 
 # Standard to msysgit
 *.doc	 diff=astextplain
