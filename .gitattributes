@@ -1,7 +1,8 @@
 # Auto detect text files and perform LF normalization
-* text=auto encoding=utf-8
+* text=auto
 
 # CRLF -> LF by default, but not for modules or classes (especially classes)
+/src/*.* encoding=cp1251
 *.bas text eol=crlf
 *.cls text eol=crlf
 
