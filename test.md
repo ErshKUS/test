@@ -1,4 +1,4 @@
-### Table of contents
+﻿### Table of contents
 documents using <kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd>.
 
 > **Note:** The <i class="icon-refresh"></i> button is disabled when you have no document to synchronize.
@@ -9,7 +9,7 @@ Term 2
 :   Definition B
 	
 VBA-Web
-=
+===
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
