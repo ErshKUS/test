@@ -4,6 +4,8 @@
 # CRLF -> LF by default, but not for modules or classes (especially classes)
 *.bas text eol=crlf
 *.cls text eol=crlf
+/src/*.bas encoding=cp1251
+/src/*.cls encoding=cp1251
 
 # Standard to msysgit
 *.doc	 diff=astextplain

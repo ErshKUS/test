@@ -17,7 +17,11 @@ Attribute ByteArrayToSystemMdw.VB_Description = "Макрос записан 12/02/2014 (dani
   Debug.Print "Loading 68%": Part1E: Part1F: Part20: Part21: Part22: Part23
   Debug.Print "Loading 82%": Part24: Part25: Part26: Part27: Part28: Part29
   Debug.Print "Loading 95%": Part2A: Part2B: Debug.Print "Loaded 100%"
+<<<<<<< HEAD
   If Err.Number = 6 Then Err.Clear ' Очищаем ошибку переполнения
+=======
+  If Err.Number = 6 Then Err.Clear ' РћС‡РёС‰Р°РµРј РѕС€РёР±РєСѓ РїРµСЂРµРїРѕР»РЅРµРЅРёСЏ (С‚РµСЃС‚)
+>>>>>>> origin/master
   Open FullPath For Binary Access Write As #1: Put #1, , ArrByte: Close #1
 End Sub
 
