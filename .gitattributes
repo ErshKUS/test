@@ -2,7 +2,7 @@
 * text=auto
 
 # CRLF -> LF by default, but not for modules or classes (especially classes)
-/src/*.* encoding=cp1251
+src/*.* encoding=cp1251
 *.bas text eol=crlf
 *.cls text eol=crlf
 
