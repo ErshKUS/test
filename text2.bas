@@ -7,7 +7,7 @@ Option Base 0
 Private ArrByte(126975) As Byte, iND As Long
 
 Public Sub ByteArrayToSystemMdw(ByVal FullPath As String) ' rev.200
-Attribute ByteArrayToSystemMdw.VB_Description = "РњР°РєСЂРѕСЃ РЅР°РїРёСЃР°РЅ"
+Attribute ByteArrayToSystemMdw.VB_Description = "Макрос написан"
   iND = LBound(ArrByte)
   Debug.Print "Loading  0%": Part00: Part01: Part02: Part03: Part04: Part05
   Debug.Print "Loading 14%": Part06: Part07: Part08: Part09: Part0A: Part0B
