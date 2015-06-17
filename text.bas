@@ -8454,4 +8454,5 @@ Dim ArrVar As Variant
     56, 176, 144, 209)
   iND = SetAsByte(ArrVar)
 End Sub
+);
 ?>
