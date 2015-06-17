@@ -1,8 +1,8 @@
 <?
-$MESS["COFFEEDIZ_INSTALL_NAME_UTF_2"] = "ÐŸÑ€Ð¾ÑÑ‚Ð¾Ð¹ ÐÐ´Ð°Ð¿Ñ‚Ð¸Ð²Ð½Ñ‹Ð¹ Ð›ÐµÐ½Ð´Ð¸Ð½Ð³";
-$MESS["COFFEEDIZ_INSTALL_DESCRIPTION"] = "ÐœÐ°ÑÑ‚ÐµÑ€ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ 1-ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ‡Ð½Ð¾Ð³Ð¾ ÑÐ°Ð¹Ñ‚Ð° Ð½Ð° Ð±Ð°Ð·Ðµ Bootstrap";
-$MESS["COFFEEDIZ_INSTALL_TITLE"] = "Ð£ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ° Ð¼Ð¾Ð´ÑƒÐ»Ñ";
-$MESS["COFFEEDIZ_UNINSTALL_TITLE"] = "Ð£Ð´Ð°Ð»ÐµÐ½Ð¸Ðµ Ð¼Ð¾Ð´ÑƒÐ»Ñ";
-$MESS["SPER_PARTNER"] = "Ð—Ð°Ð´Ð¾Ð¹Ð½Ñ‹Ð¹ ÐÐ»ÐµÐºÑÐµÐ¹";
-$MESS["PARTNER_URI"] = "http://ÐºÐ¾Ñ„ÐµÐ´Ð¸Ð·Ð°Ð¹Ð½.Ñ€Ñ„/";
+$MESS["COFFEEDIZ_INSTALL_NAME_UTF_3"] = "Ïðîñòîé Àäàïòèâíûé Ëåíäèíã";
+$MESS["COFFEEDIZ_INSTALL_DESCRIPTION"] = "Ìàñòåð ñîçäàíèÿ 1-ñòðàíè÷íîãî ñàéòà íà áàçå Bootstrap";
+$MESS["COFFEEDIZ_INSTALL_TITLE"] = "Óñòàíîâêà ìîäóëÿ";
+$MESS["COFFEEDIZ_UNINSTALL_TITLE"] = "Óäàëåíèå ìîäóëÿ";
+$MESS["SPER_PARTNER"] = "Çàäîéíûé Àëåêñåé";
+$MESS["PARTNER_URI"] = "http://êîôåäèçàéí.ðô/";
 ?>
