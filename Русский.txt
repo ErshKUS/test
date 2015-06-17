@@ -3,10 +3,12 @@
 Настройки
 =========
 -git config --global core.quotePath false
-git config --global i18n.filesEncoding windows-1251
+-git config --global i18n.filesEncoding windows-1251
 -git config --global i18n.commitEncoding cp1251
 -git config --global i18n.logoutputEncoding cp1251
 -git config --global i18n.commitEncoding utf8
 
-git config --global core.quotepath false
-git config --global core.pager "iconv.exe -f cp1251 -t utf-8 | less"
+-git config --global core.quotepath false
+-git config --global core.pager "iconv.exe -f cp1251 -t utf-8 | less"
+
+git config --global i18n.filesEncoding cp1251

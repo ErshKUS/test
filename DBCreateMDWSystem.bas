@@ -1,4 +1,4 @@
-' Кодировка UTF-8 или ANSI ?
+' Кодировка UTF-8 или ANSI 
 Attribute VB_Name = "DBCreateMDWSystem"
 Option Explicit
 Option Base 0
