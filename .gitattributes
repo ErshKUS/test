@@ -2,5 +2,5 @@
 * text=auto
 
 # Custom for Visual Basic (CRLF -> LF not for classes or modules)
-*.bas text eol=crlf
+#*.bas text eol=crlf
 *.php text eol=crlf
