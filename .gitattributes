@@ -1,6 +1,6 @@
 # Auto detect text files and perform LF normalization
 #* text=auto
-* encoding=cp1251
+* encoding=windows-1251
 *.txt encoding=UTF-8
 
 # Custom for Visual Basic (CRLF -> LF not for classes or modules)
