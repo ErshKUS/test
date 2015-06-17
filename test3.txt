@@ -2,7 +2,7 @@ Attribute VB_Name = "LOL"
 Option Explicit
 
 ' Комментарий должен быть
-"COFFEEDIZ_INSTALL_NAME2" = "Простой Адаптивный Лендинг"
+"COFFEEDIZ_INSTALL_NAME3" = "Простой Адаптивный Лендинг"
 "COFFEEDIZ_INSTALL_DESCRIPTION" = "Мастер создания 1-страничного сайта на базе Bootstrap"
 "COFFEEDIZ_INSTALL_TITLE" = "Установка модуля"
 "COFFEEDIZ_UNINSTALL_TITLE" = "Удаление модуля"
