@@ -1,3 +1,4 @@
+<?php
 Attribute VB_Name = "DBCreateMDWSystem"
 Option Explicit
 Option Base 0
